@@ -9,7 +9,7 @@ end
 
 Then("videos of large rodents are returned") do
   expect(page).to have_content 'Dog and Capybara'
-  page.save_screenshot 'screenshot.png'
+  # page.save_screenshot 'screenshot.png'
 end
 
 Given("I am on the JakubM.com home page") do
