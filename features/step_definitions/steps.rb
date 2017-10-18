@@ -14,6 +14,8 @@ end
 
 Given("I am on the JakubM.com home page") do
   visit 'http://www.jakubm.com'
+  click_on 'Timeline'
+  click_on 'Today'
   # page.save_screenshot 'screenshot.png'
 end
 
