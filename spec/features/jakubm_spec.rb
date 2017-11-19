@@ -4,6 +4,7 @@ describe 'jakubm', :type => :feature do
       visit 'http://jakubm.com'
       click_on 'Timeline'
       click_on 'Today'
+      sleep 0.5
       fill_in 'Flight Number', with: 'BA'
       check_airlines 'British Airways', 'Lufthansa'
     end
@@ -14,6 +15,7 @@ describe 'jakubm', :type => :feature do
       visit 'http://jakubm.com'
       click_on 'Timeline'
       click_on 'Today'
+      sleep 0.5
       fill_in 'Flight Number', with: 'EK'
       check_airlines 'Emirates', 'British Airways'
     end
