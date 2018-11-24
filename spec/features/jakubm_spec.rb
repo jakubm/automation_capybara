@@ -1,7 +1,7 @@
 describe 'jakubm', :type => :feature do
   context 'ba' do
     it 'should open jakub and filter BA flights only' do
-      visit 'http://jakubm.com'
+      visit 'http://prg-aero.com'
       click_on 'Timeline'
       click_on 'Today'
       sleep 0.5
@@ -12,7 +12,7 @@ describe 'jakubm', :type => :feature do
 
   context 'ek' do
     it 'should open jakub and filter EK flights only' do
-      visit 'http://jakubm.com'
+      visit 'http://prg-aero.com'
       click_on 'Timeline'
       click_on 'Today'
       sleep 0.5
